@@ -1,0 +1,78 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: #2C3E50;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+#countdown {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.time {
+  flex-basis: 20%;
+}
+
+.time span {
+  font-size: 3em;
+  display: block;
+}
+
+.time p {
+  font-size: 1.2em;
+}
+
+#notify-form {
+  display: flex;
+  justify-content: center;
+}
+
+#email {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 60%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
